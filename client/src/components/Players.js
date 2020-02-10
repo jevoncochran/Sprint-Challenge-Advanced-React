@@ -18,7 +18,7 @@ const Players = () => {
 
     return (
         <div>
-            <h2>Women's World Cup Participants</h2>
+            <h2 className="title">Women's World Cup Participants</h2>
             <Display participants={players} />
         </div>
     )

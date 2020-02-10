@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +27,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  text-align: center;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  width: 100%;
+}
+
+.player-map { 
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed black;
+  width: 100%;
+}
+
+.player-map i {
+  font-size: 2rem;
+}
+
+.individual-player-div {
+  margin-top: 0%;
+  padding-top: 0%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+
+.player { 
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.country { 
+  margin-top: 0%;
+  padding-top: 0%;
 }
