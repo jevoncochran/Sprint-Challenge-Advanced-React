@@ -2,16 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Display from "./Display";
+import Players from "./components/Players";
 
 function App() {
   return (
     <div className="App">
-      <Display />
+      <Players />
     </div>
   );
 }
 
 export default App;
 
-// jevon 
