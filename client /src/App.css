@@ -1,0 +1,85 @@
+.dark {
+  background-color: darkblue;
+  color: white;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  width: 100%;
+}
+
+.player-map { 
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed black;
+  width: 100%;
+}
+
+.player-map i {
+  font-size: 2rem;
+}
+
+.individual-player-div {
+  margin-top: 0%;
+  padding-top: 0%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+
+.player { 
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.country { 
+  margin-top: 0%;
+  padding-top: 0%;
+}
